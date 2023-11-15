@@ -1,0 +1,27 @@
+.searchBar {
+	background-color: var(--gray-01);
+	padding: 0.625rem 1rem;
+	width: 20rem;
+	height: 2.625rem;
+	display: flex;
+	align-items: center;
+	border-radius: 0.5rem;
+}
+
+.input {
+	flex: 1;
+	display: block;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 0.875rem;
+}
+
+.input::placeholder {
+	color: var(--text-dark);
+}
+
+.btn {
+	background: transparent;
+	border: none;
+}
