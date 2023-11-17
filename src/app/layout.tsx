@@ -3,7 +3,7 @@ import { Saira } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 
-const saira = Saira({ subsets: ["latin"], weight: ["400"] });
+const saira = Saira({ subsets: ["latin"], weight: ["600", "400", "300"] });
 
 export const metadata: Metadata = {
 	title: "Capputeeno",
