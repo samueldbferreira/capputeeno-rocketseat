@@ -18,7 +18,7 @@
 }
 
 .input::placeholder {
-	color: var(--text-dark);
+	color: var(--text-01);
 }
 
 .btn {

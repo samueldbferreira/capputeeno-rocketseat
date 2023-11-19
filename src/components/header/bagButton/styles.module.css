@@ -7,12 +7,12 @@
 .quantity {
 	position: absolute;
 	right: -0.35rem;
-	bottom: -0.20rem;
+	bottom: -0.2rem;
 	display: block;
 	width: 1.0625rem;
 	height: 1.0625rem;
 	border-radius: 50%;
-	background-color: #de3838;
+	background-color: var(--red);
 	font-size: 0.625rem;
 	line-height: 1.0625rem;
 	color: var(--white);

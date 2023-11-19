@@ -1,10 +1,13 @@
 import { IProduct } from "@/interfaces/product";
-import { allProducts } from "../../utils/generateFakeProducts";
 import styles from "./page.module.css";
 import { ProductCard } from "@/components/productCard";
 
 async function getProducts() {
-	return allProducts as IProduct[];
+	const res = await fetch("http://localhost:3000/api/products");
+
+	const products = await res.json();
+
+	return products as IProduct[];
 }
 
 export default async function Home() {

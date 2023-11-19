@@ -11,7 +11,12 @@ export function ProductCard({ data }: ProductCardProps) {
 	return (
 		<Link href={`products/${data.id}`} className={styles.card}>
 			<div className={styles.img}>
-				<Image alt={data.name} src={data.image_url} fill objectFit="cover" />
+				<Image
+					alt={data.name}
+					src={data.image_url}
+					fill
+					style={{ objectFit: "cover" }}
+				/>
 			</div>
 
 			<div className={styles.info}>

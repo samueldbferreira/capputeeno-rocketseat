@@ -1,0 +1,95 @@
+.container {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+.backBtn {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.backBtn span {
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: var(--text-00);
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+	gap: 2rem;
+}
+
+.img {
+	border-radius: 0.25rem;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.category {
+	display: block;
+	margin-bottom: 0.75rem;
+	color: var(--text-02);
+	text-transform: capitalize;
+}
+
+.name {
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 1.5;
+	color: var(--text-02);
+}
+
+.price {
+	display: block;
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--text-03);
+	margin-bottom: 1.5rem;
+}
+
+.shipping {
+	display: block;
+	font-size: 0.75rem;
+	color: var(--text-02);
+	margin-bottom: 3.625rem;
+}
+
+.descriptionTitle {
+	font-weight: 500;
+	font-size: 1rem;
+	color: var(--text-01);
+	margin-bottom: 0.5rem;
+}
+
+.description {
+	font-size: 0.875rem;
+	color: var(--text-02);
+	margin-bottom: 13.875rem;
+}
+
+.buyBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.75rem;
+	height: 2.75rem;
+	width: 100%;
+	background-color: var(--blue);
+	border: none;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--white);
+	transition: background-color 0.2s;
+}
+
+.buyBtn:hover {
+	background-color: rgb(11, 78, 121);
+}
