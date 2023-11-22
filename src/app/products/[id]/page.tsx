@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
-import backSVG from "../../../assets/back.svg";
-import styles from "./styles.module.css";
 import { IProduct } from "@/interfaces/product";
+import { BackButton } from "@/components/backButton";
 import bagSVG from "../../../assets/bag-light.svg";
+import styles from "./styles.module.css";
 
 async function getProduct(id: string) {
 	const res = await fetch(`http://localhost:3000/api/products/${id}`);
@@ -18,10 +17,8 @@ export default async function Product({ params }: { params: { id: string } }) {
 
 	return (
 		<main className={styles.container}>
-			<Link href="/" className={styles.backBtn}>
-				<Image alt="" src={backSVG} />
-				<span>Voltar</span>
-			</Link>
+			<BackButton />
+
 			<section className={styles.content}>
 				<div className={styles.img}>
 					<Image

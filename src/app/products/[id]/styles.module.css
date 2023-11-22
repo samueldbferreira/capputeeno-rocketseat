@@ -4,24 +4,11 @@
 	padding: 1.5rem;
 }
 
-.backBtn {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	margin-bottom: 2rem;
-}
-
-.backBtn span {
-	display: block;
-	font-size: 0.875rem;
-	font-weight: 500;
-	color: var(--text-00);
-}
-
 .content {
 	display: grid;
 	grid-template-columns: 7fr 5fr;
 	gap: 2rem;
+	margin-top: 2rem;
 }
 
 .img {

@@ -1,0 +1,70 @@
+.summary {
+	background-color: var(--white);
+	padding: 1rem 1.5rem;
+	height: 100%;
+	min-height: calc(100vh - 8rem);
+	display: flex;
+	flex-direction: column;
+}
+
+.summary h2 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--text-02);
+	margin-bottom: 1.75rem;
+}
+
+.summaryLine {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--text-02);
+	margin-bottom: 0.75rem;
+}
+
+.summaryLine span {
+	display: block;
+}
+
+.summaryLine strong {
+	font-weight: 600;
+}
+
+.summary hr {
+	display: block;
+	border: none;
+	height: 1px;
+	width: 100%;
+	background-color: var(--gray-02);
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.buy {
+	height: 2.75rem;
+	width: 100%;
+	background-color: var(--green);
+	border: none;
+	border-radius: 0.25rem;
+	padding: 0.25rem;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--gray-03);
+	transition: background-color 0.2s;
+	margin-top: 2.5rem;
+}
+
+.buy:hover {
+	background-color: rgb(60, 160, 62);
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	text-decoration: underline;
+	color: var(--text-01);
+	margin-top: auto;
+}

@@ -1,0 +1,14 @@
+.backBtn {
+	background: none;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.backBtn span {
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: var(--text-00);
+}

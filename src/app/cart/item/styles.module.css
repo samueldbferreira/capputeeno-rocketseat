@@ -1,0 +1,55 @@
+.img {
+	position: relative;
+}
+
+.item {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 3fr 5fr;
+	border-radius: 0.5rem;
+	color: var(--text-02);
+}
+
+.info {
+	background-color: var(--white);
+	padding: 1rem 1rem 1.5rem 2rem;
+}
+
+.info header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.75rem;
+}
+
+.deleteBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	width: 1.5rem;
+	background: none;
+	border: none;
+}
+
+.info h2 {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+.info p {
+	font-size: 0.75rem;
+	margin-bottom: 1.5rem;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.price {
+	display: block;
+	font-weight: 600;
+	color: var(--text-03);
+}
